@@ -10,25 +10,33 @@ The following directories are modeled by the PLI.
 
 ### Source Directories
 
-| Directory     | Summary                                                   |
-|:--------------|:----------------------------------------------------------|
-| src/main/css  | Entry level CSS module(s) are contained in this directory |
-| src/main/js   | Javascript supporting dynamic demoes                      |
-| src/main/html | Dynamic demonstrations                                    |
-| src/test/css  | CSS test utilities                                        |
-| src/test/js   | Javascript supporting CSS unit tests                      |
-| src/test/html | Html pages for loading the unit tests                     |
+| Directory      | Summary                                                   |
+|:---------------|:----------------------------------------------------------|
+| src/main/css   | CSS module(s)                                             |
+| src/main/js    | Javascript                                                |
+| src/main/html  | HTML application, templates, prototypes, etc.             |
+| src/main/images| Image development                                         |
+| src/main/wc    | Web component development                                 |
+| src/test/css   | CSS tests                                                 |
+| src/test/js    | Javascript test                                           |
+| src/test/html  | Html page based tests                                     |
+| src/main/images| Image development                                         |
+| src/main/wc    | Web component                                             |
 
 ### Target Directories
 
-| Directory        | Summary                       |
-|:-----------------|:------------------------------|
-| target/main/css  | Built CSS modules             |
-| target/main/js   | Built javascript              |
-| target/main/html | Built dynamic demo html pages |
-| target/test/css  | Built test CSS utilities      |
-| target/test/js   | Built test Javascript         |
-| target/test/html | Built test html               |
+| Directory         | Summary                       |
+|:------------------|:------------------------------|
+| target/main/css   | Built CSS modules             |
+| target/main/js    | Built javascript              |
+| target/main/html  | Built html pages              |
+| target/main/images| Image development             |
+| target/main/wc    | Web component development     |
+| target/test/css   | Built test CSS utilities      |
+| target/test/js    | Built test Javascript         |
+| target/test/html  | Built test html               |
+| target/test/images| Compiled image tests          |
+| target/test/wc    | Web component tests           |
 
 ## Extension
 
