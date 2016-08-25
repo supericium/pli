@@ -8,29 +8,35 @@ var PLI = {
     main: {
       js: './src/main/js/',
       css: './src/main/css/',
-      html: './src/main/html/'
+      html: './src/main/html/',
+      images: './src/main/images',
+      wc: './src/main/wc/'
     },
     test: {
       js: './src/test/js/',
       css: './src/test/css/',
       html: './src/test/html/'
+      images: './src/test/images',
+      wc: './src/test/wc/'
     }
   },
   target: {
     main: {
       js: './target/main/js/',
       css: './target/main/css/',
-      html: './target/main/html/'
+      html: './target/main/html/',
+      images: './src/test/images',
+      wc: './src/test/wc/'
     },
     test: {
       js: './target/test/js/',
       css: './target/test/css/',
-      html: './target/test/html/'
+      html: './target/test/html/',
+      images: './src/test/images',
+      wc: './src/test/wc/'
     }
   }
 }
-
-var glob = path.join(PLI.src.test.html, GLOB.ALL_HTML);
 
 PLI.SRC_MAIN_CSS = path.join(PLI.src.main.css, GLOB.ALL_CSS);
 PLI.SRC_MAIN_HTML = path.join(PLI.src.main.html, GLOB.ALL_HTML);
