@@ -20,8 +20,8 @@ The following directories are modeled by the PLI.
 | src/test/css   | CSS tests                                                 |
 | src/test/js    | Javascript tests                                          |
 | src/test/html  | Html page based tests                                     |
-| src/main/images| Image development                                         |
-| src/main/wc    | Web component                                             |
+| src/test/images| Image tests                                               |
+| src/test/wc    | Web component tests                                       |
 
 ### Target Directories
 
