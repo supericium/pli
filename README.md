@@ -18,7 +18,7 @@ The following directories are modeled by the PLI.
 | src/main/images| Image development                                         |
 | src/main/wc    | Web component development                                 |
 | src/test/css   | CSS tests                                                 |
-| src/test/js    | Javascript test                                           |
+| src/test/js    | Javascript tests                                          |
 | src/test/html  | Html page based tests                                     |
 | src/main/images| Image development                                         |
 | src/main/wc    | Web component                                             |
